@@ -1,0 +1,24 @@
+/* South African Theme Additions */
+.hero {
+    background: linear-gradient(135deg, #007749 0%, #001489 100%); /* SA flag colors */
+}
+
+.feature-icon, .step-number, .signup, .cta-button:hover {
+    background: #001489; /* SA blue */
+}
+
+.cta-button {
+    background: #FFB81C; /* SA gold */
+    color: #001489;
+}
+
+.security-visual {
+    background: #007749; /* SA green */
+}
+
+/* Responsive adjustments for local context */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+}
